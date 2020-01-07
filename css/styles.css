@@ -1,0 +1,240 @@
+/*************************************************************************************************/
+/*                                       Tag Selectors                                           */
+/*************************************************************************************************/
+body{
+  text-align: center;
+  margin: 0;
+}
+
+hr {
+  border-color: #625757;
+  border-style: solid none none;
+  border-width: 1px;
+  width: 97%;
+}
+
+p {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 1em;
+  color: #3c4245;
+}
+
+/*************************************************************************************************/
+/*                                      Class Selectors                                          */
+/*************************************************************************************************/
+
+/* General Stuff */
+.colored-section {
+  background-color: #c9d6df;
+}
+
+.container-fluid {
+  padding: 3% 15% 5.5%;
+}
+
+.container {
+  /* padding: 3% 15% 5.5%; */
+}
+
+/* Headings */
+.section-header {
+  color: #625757;
+  font-family: "Courier New", "Times New Roman";
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.sub-header{
+  color: #625757;
+  font-family: "Courier New", "Times New Roman";
+  font-weight: bold;
+  padding: 1.2rem 0;
+}
+
+/* Paragraphs */
+.information {
+  text-align: left;
+  width: 28rem;
+}
+
+.custom-right-section {
+  /* padding: 3% 15% 5.5%; */
+}
+
+.custom-left-section {
+  /* padding: 2% 15%; */
+}
+
+/* Intro section */
+#intro {
+
+}
+
+.bio-info {
+  color: #3c4245;
+  font-family: "Cutive Mono", monospace;
+  font-size: 1.7rem;
+  margin: 0 0 2rem;
+}
+
+.intro-container{
+  padding: 4% 5%;
+}
+
+.main-header {
+  color: #625757;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 5.2rem;
+  font-weight: bold;
+  margin: 2rem 0 1rem;
+}
+
+/* Navigation Bar Section */
+.custom-navbr-bg{
+  background-color: #f0f5f9;
+}
+
+.custom-navbr-text {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+  padding: 0 18px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+
+}
+
+
+/* About me Section */
+#about-me {
+  /* background-color: #bcbab8; */
+  background-color: #fff;
+  padding: 5% 0;
+}
+
+.profile-pic{
+  height: 200px;
+  margin: 1.5% 0 2%;
+  width: 200px;
+}
+
+/* Skills Section */
+#skills {
+background-color: #bcbab8;
+}
+
+/* Personal projects Section */
+#personal-projects {
+background-color: #ece8d9;
+}
+
+/* Carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.carousel-item {
+
+}
+
+.carousel-information {
+  text-align: left;
+  width: 28rem;
+}
+
+
+/* Experience Section */
+#experience{
+  background-color: #9d8f8f;
+}
+
+#experience h2{
+  color: #fff;
+}
+
+#experience p{
+  color: #fff;
+}
+
+
+#experience h3{
+  color: #fff;
+}
+
+.books {
+  height: 240px;
+  width: 240px;
+}
+
+.computer {
+  height: 145px;
+  width: 164px;
+}
+
+.people {
+  position: relative;
+  height: 97px;
+  width: 311px;
+}
+
+.rep-models {
+  height: 160px;
+  width: 123px
+}
+
+/* Footer Section*/
+#footer{
+  background-color: #625757;
+  padding: 3% 0 2.5%;
+}
+
+#footer .sub-header {
+  color: #ffffff;
+}
+
+#footer p {
+  color: #ffffff;
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
+
+.social-icon {
+  padding: 0 0.7rem 0.8rem;
+  color: white;
+}
+
+
+/*************************************************************************************************/
+/*                                  Pseudo Class Selectors                                       */
+/*************************************************************************************************/
+
+::-webkit-scrollbar {
+    background-color: #c9d6df ;
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
