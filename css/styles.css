@@ -53,16 +53,16 @@ p {
 
 /* Paragraphs */
 .information {
+  display: inline-block;
+  margin: 0 auto;
   text-align: left;
   width: 28rem;
+  vertical-align: middle;
 }
 
+.custom-left-section,
 .custom-right-section {
-  /* padding: 3% 15% 5.5%; */
-}
-
-.custom-left-section {
-  /* padding: 2% 15%; */
+  padding: 0 1rem 2rem;
 }
 
 /* Intro section */
@@ -111,16 +111,19 @@ p {
   padding: 0 18px;
 }
 
-.nav-link {
-
-}
-
-
 /* About me Section */
 #about-me {
-  /* background-color: #bcbab8; */
   background-color: #fff;
-  padding: 5% 0;
+  padding: 3% 12%;
+}
+
+#about-me .sub-header {
+  padding: 0;
+}
+
+.about-me-info {
+  margin: 0 auto;
+  width: 49%;
 }
 
 .profile-pic{
@@ -131,12 +134,26 @@ p {
 
 /* Skills Section */
 #skills {
-background-color: #bcbab8;
+  background-color: #bcbab8;
+  padding: 3% 12%;
 }
 
 /* Personal projects Section */
 #personal-projects {
-background-color: #ece8d9;
+  background-color: #ece8d9;
+  padding: 3% 12%;
+}
+
+.asl-hands {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.math-operators {
+  margin: auto;
+  width: 192px;
+  vertical-align: middle;
 }
 
 /* Carousel */
@@ -146,19 +163,31 @@ background-color: #ece8d9;
   width: 30px;
 }
 
-.carousel-item {
+.carousel-indicators {
+  bottom:-50px;
+}
 
+.carousel-inner {
+  margin-bottom:50px;
+}
+
+.carousel-item {
+  height: 27rem;
 }
 
 .carousel-information {
+  display: inline-block;
+  margin: 0 auto;
   text-align: left;
   width: 28rem;
+  vertical-align: middle;
 }
 
 
 /* Experience Section */
 #experience{
   background-color: #9d8f8f;
+  padding: 3% 12%;
 }
 
 #experience h2{
@@ -175,30 +204,36 @@ background-color: #ece8d9;
 }
 
 .books {
-  height: 240px;
-  width: 240px;
+  height: 173px;
+  margin: 0 auto;
+  width: 172px;
+  vertical-align: middle;
 }
 
 .computer {
   height: 145px;
+  margin: auto;
   width: 164px;
+  vertical-align: middle;
 }
 
 .people {
-  position: relative;
   height: 97px;
+  margin: auto;
   width: 311px;
+  vertical-align: middle;
 }
 
 .rep-models {
   height: 160px;
+  position: relative;
   width: 123px
 }
 
 /* Footer Section*/
 #footer{
   background-color: #625757;
-  padding: 3% 0 2.5%;
+  padding: 2% 0 1.6%;
 }
 
 #footer .sub-header {
@@ -211,6 +246,12 @@ background-color: #ece8d9;
 
 .copyright {
   font-size: 0.8rem;
+}
+
+.footer-info {
+  margin: auto;
+  padding: 0 0 20px;
+  width: 40%;
 }
 
 .social-icon {
